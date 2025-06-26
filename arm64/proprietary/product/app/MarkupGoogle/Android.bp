@@ -1,0 +1,8 @@
+cc_prebuilt_library_shared {
+      name: "libsketchology_native",
+      srcs: ["lib/arm64/libsketchology_native.so"],
+      shared_libs: [],
+      stl: "none",
+      system_shared_libs: [],
+      vendor: true,
+  }

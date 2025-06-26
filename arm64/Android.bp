@@ -87,3 +87,20 @@ android_app_import {
 	system_ext_specific: true,
 }
 
+cc_prebuilt_library_shared {
+    name: "libjni_latinimegoogle",
+    srcs: ["proprietary/product/lib/libjni_latinimegoogle.so"],
+    shared_libs: [],
+    stl: "none",
+    system_shared_libs: [],
+    vendor: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libjni_latinimegoogle_64",
+    srcs: ["proprietary/product/lib64/libjni_latinimegoogle.so"],
+    shared_libs: [],
+    stl: "none",
+    system_shared_libs: [],
+    vendor: true,
+}
